@@ -2,6 +2,19 @@ A quick programme to simulate the throwing of two dice, 50 000 times, and print 
 
 Compile using the accompanying compile-flags and launch / task files if it works for you (I'm in VScode, on macOS).
 
+Example output:
+2: 1353 
+3: 2791 
+4: 4119 
+5: 5661 
+6: 6924 
+7: 8418 
+8: 6897 
+9: 5593 
+10: 4085 
+11: 2832 
+12: 1327 
+
 
 ## Otherwise try: compile and run
 To compile quick and dirty with clang (I'm using C23 and llvm 21.6) just
