@@ -1,13 +1,13 @@
 A quick programme to simulate the throwing of two dice, 50 000 times, and print how many times each possible outcome occurred. 
 
-Compile using the accompanying compile-flags and launch / task files if it works for you (I'm in VScode, on iOS).
+Compile using the accompanying compile-flags and launch / task files if it works for you (I'm in VScode, on macOS).
 
 
 ## Otherwise try: compile and run
 To compile quick and dirty with clang (I'm using C23 and llvm 21.6) just
 
 ```bash
-#for macOs/Linux
+#for macOS/Linux
 clang -std=c2x -g -Iinclude -o main src/main.c
 ```
 or
@@ -18,7 +18,7 @@ clang -std=c2x -g -Iinclude -o main.exe src\main.c
 
 And then run
 ```bash
-#for macOs/Linux
+#for macOS/Linux
 ./main
 ```
 Or
